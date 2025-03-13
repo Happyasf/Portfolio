@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rólam</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<style>
+    body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #ff7f50;
+    position: fixed;
+    width: 98vw;
+    z-index: 100;
+    top: 0;
+  }
+  
+  nav .logo {
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: white;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+  }
+  
+  .about {
+    margin-top: 70px;
+    padding: 20px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .about h1 {
+    font-size: 2.5rem;
+    color: #ff7f50;
+  }
+  
+  .about p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+  
+  @media (max-width: 768px) {
+    .hide-mobile {
+      display: none;
+    }
+  
+    nav ul {
+      gap: 10px;
+    }
+  
+    .about {
+      padding: 10px;
+    }
+  }
+  
+</style>
+<body>
+  <header>
+    <nav>
+      <div class="logo">KT <span class="hide-mobile">Portfólió</span></div>
+      <ul>
+        <li><a href="index.html">Főoldal</a></li>
+        <li><a href="#">Munkáim</a></li>
+        <li><a href="#">Kapcsolat</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="about">
+    <h1>Rólam</h1>
+    <p>Üdvözöllek a portfólió oldalamon! Kecskés Tamás vagyok, szenvedélyes fejlesztő, aki a jövőt építi kódsoronként. Széleskörű tapasztalattal rendelkezem a webfejlesztés terén, és mindig új technológiákat keresek, hogy kreatív megoldásokat hozzak létre.</p>
+    <p>Fókuszban a felhasználói élmény, a tiszta kód és a hatékony megvalósítás.</p>
+  </section>
+
+</body>
+</html>
