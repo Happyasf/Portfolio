@@ -1,33 +1,108 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hu">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolió</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólió</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background-color: #ff7f32;
+      color: white;
+      overflow-x: hidden;
+    }
+
+    header {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 100;
+      background-color: white;
+      padding: 10px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+      justify-content: right;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: black;
+      font-weight: 600;
+    }
+
+
+    .hero {
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .profile-pic {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      border: 3px solid white;
+    }
+
+    .buttons button {
+      margin: 10px;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 20px;
+      background-color: white;
+      color: #ff7f32;
+      font-weight: 600;
+      cursor: pointer;
+    }
+ 
+    @media (max-width: 800px) {
+      .hide-mobile {
+        display: none;
+      }
+    }
+  </style>
 </head>
 <body>
-    <div class="container">
-        <nav>
-            <div class="logo"><img src="Logo.png" alt=""></div>
-            <ul>
-                <li><a href="#about">Rólam</a></li>
-                <li><a href="#work">Munkáim</a></li>
-                <li><a href="#contact">Kapcsolat</a></li>
-            </ul>
-        </nav>
-    
-        <!--hero section-->
-        <section >  
-            <img id="pfp" src="pfp.jpg" alt="saját fotó">  
-            <h1>Kecskés Tamás</h1>
-            <blockquote>Fejlesztés precizitással,
-                tesztelés alapossággal.</blockquote>
-            <div >
-                <a href="#work" class="btn">Rólam</a>
-                <a href="#work" class="btn">Munkáim</a>
-                <a href="#work" class="btn">Kapcsolat</a>
-            </div>     
-        </section>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="Rolam.html">Rólam</a></li>
+        <li><a href="#works">Munkáim</a></li>
+        <li><a href="#contact">Kapcsolat</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="content">
+      <img src="pfp.jpg" alt="Kecskés Tamás" class="profile-pic">
+      <h1>Kecskés Tamás</h1>
+      <p class="motto">A jövőt építjük kódsoronként.</p>
+      <div class="buttons">
+        <button>Rólam</button>
+        <button>Munkáim</button>
+        <button>Kapcsolat</button>
+      </div>
     </div>
+  </section>
+
 </body>
 </html>
