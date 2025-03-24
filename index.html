@@ -1,108 +1,97 @@
 <!DOCTYPE html>
-<html lang="hu">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfólió</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: 'Poppins', sans-serif;
-    }
-
-    body {
-      background-color: #ff7f32;
-      color: white;
-      overflow-x: hidden;
-    }
-
-    header {
-      position: fixed;
-      top: 0;
-      width: 100%;
-      z-index: 100;
-      background-color: white;
-      padding: 10px 20px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-
-    nav ul {
-      list-style: none;
-      display: flex;
-      gap: 20px;
-      justify-content: right;
-    }
-
-    nav a {
-      text-decoration: none;
-      color: black;
-      font-weight: 600;
-    }
-
-
-    .hero {
-      height: 100vh;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-      flex-direction: column;
-      gap: 20px;
-    }
-
-    .profile-pic {
-      width: 150px;
-      height: 150px;
-      border-radius: 50%;
-      border: 3px solid white;
-    }
-
-    .buttons button {
-      margin: 10px;
-      padding: 10px 20px;
-      border: none;
-      border-radius: 20px;
-      background-color: white;
-      color: #ff7f32;
-      font-weight: 600;
-      cursor: pointer;
-    }
- 
-    @media (max-width: 800px) {
-      .hide-mobile {
-        display: none;
-      }
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stlye.css">
+    <title>Portfolió</title>
+    <script src="getData.js"></script>
+    <script src="Main.js" defer></script>
 </head>
 <body>
-  <header>
-    <nav>
-      <ul>
-        <li><a href="Rolam.html">Rólam</a></li>
-        <li><a href="#works">Munkáim</a></li>
-        <li><a href="#contact">Kapcsolat</a></li>
-      </ul>
-    </nav>
-  </header>
+    <div class="container">
+        
+        
+        <nav>
+            <div id="logo"><a href="#" id="top"><span></span></a>
+                <h3 id="signature"><a href="#" id="top">KT</a> </h3>               
+            </div>
+            <ul id="navitems">
+                <li><a href="#rolam">Rólam</a><span id="vl">|</span></li>
+                <li><a href="#munkaim">Munkáim</a><span id="vl">|</span></li>
+                <li><a href="#contact">Kapcsolat</a></li>
+            </ul>
+        </nav>
+    
+    
+        
+        <section id="profile" >  
+            <div id="alIt" class="slide-right">
+                <img src="pfp.jpg" alt="saját fotó" id="pfp">              
+            <span style="display: flex; flex-direction: column;">
+                <h1>Kecskés Tamás</h1>
+                <blockquote>Kódról, Kódra</blockquote>
+            </span>
+            </div>
+        
+            <div id="buttons">
+                <a href="#rolam" class="btn">Rólam</a>
+                <a href="#munkaim" class="btn">Munkáim</a>
+                <a href="#kapcsolat" class="btn">Kapcsolat</a>
+            </div>     
+        </section>
+        
 
-  <section class="hero">
-    <div class="content">
-      <img src="pfp.jpg" alt="Kecskés Tamás" class="profile-pic">
-      <h1>Kecskés Tamás</h1>
-      <p class="motto">A jövőt építjük kódsoronként.</p>
-      <div class="buttons">
-        <button>Rólam</button>
-        <button>Munkáim</button>
-        <button>Kapcsolat</button>
-      </div>
+        <section id="rolam">
+            <span class="rolam" class="push-left">
+                <h2>Rólam</h2>
+                <p id="rolamtext">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce varius mattis consectetur. Donec suscipit elit posuere metus ultrices, a tristique diam vehicula. Nunc mauris sem, venenatis in maximus semper, ornare id dui. Nam sed accumsan nulla, a blandit tortor. Nunc facilisis facilisis pretium. Cras at elit turpis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis at cursus tellus, ac posuere libero. Pellentesque et pulvinar lacus. Morbi eu semper nibh, placerat sagittis est.
+
+                  Suspendisse feugiat scelerisque mauris, vel fermentum purus faucibus sed. Nunc sed libero mattis, pulvinar diam at, tincidunt justo. Sed vitae lectus tellus. Vivamus sit amet venenatis risus. Praesent vitae ligula vitae arcu posuere mattis vitae eu enim. Nam at semper lacus, vel fermentum quam. Ut ligula risus, ultricies sed tincidunt ut, ultrices at felis.
+                  
+                  Mauris porta vitae sapien sit amet porttitor. In hac habitasse platea dictumst. Nulla volutpat nunc vel vehicula sodales. In a justo rhoncus, ullamcorper nibh id, laoreet nisl. Etiam volutpat tellus nec pharetra semper. Sed ac lacinia lectus. Mauris vel pulvinar quam. Aenean a ligula sed velit ultrices iaculis eget ac massa. Suspendisse elementum egestas dolor, at laoreet tortor. Donec finibus quis lorem vel ultrices. Vestibulum facilisis, velit nec scelerisque hendrerit, nibh nisi vestibulum lectus, sit amet semper ante quam lacinia lacus. Sed eget venenatis nibh, id luctus dolor. Morbi non arcu scelerisque, pulvinar metus eget, ornare ligula. Fusce elit magna, volutpat a venenatis non, pharetra id purus. Sed aliquam erat tellus, a posuere elit suscipit id.
+                  
+                  Maecenas non ullamcorper erat. Mauris condimentum nec est nec iaculis. Sed facilisis id leo eget consequat. Fusce eget massa porttitor, convallis urna et, pellentesque ligula. Phasellus semper mattis ipsum, in placerat lacus. Proin pellentesque sem neque, in tempus sem euismod finibus. Nunc condimentum, leo ut faucibus pharetra, odio nisl mattis quam, sit amet ornare arcu erat sed lorem. Nunc consequat sem efficitur mi congue, ut porttitor lectus fringilla.
+                  
+                  Nulla rhoncus vitae mauris vel sollicitudin. In hendrerit cursus tellus non mollis. Ut ullamcorper pulvinar justo ut scelerisque. Vivamus sollicitudin erat in libero commodo maximus. Nullam euismod, ex sed congue imperdiet, arcu erat hendrerit mauris, molestie tincidunt nisi nulla sed erat. Nunc urna nunc, condimentum non velit eget, iaculis convallis velit. Nunc justo lorem, sagittis in mi sed, finibus maximus quam. Nunc a ipsum commodo, volutpat lorem non, euismod est. Suspendisse ut eleifend ex.</p>
+            </span>
+        </section>
+        
+        <section id="munkaim">
+            <h1 class="mh1">Munkáim</h1>
+
+        </section>
+
+        <section id="contact">
+            <h1>Kapcsolatok</h1>
+            <div class="contactholder">
+
+                <div class="contactdiv push-down">
+                    <h3>Elérhetőségeim</h3>
+                    <ul>
+                        <li>example@gmail.com</li>
+                        <li>+36 20 123 1234</li>
+                        <li>Kecskemét</li>
+                    </ul>
+                </div>
+                <div class="contactdiv push-down">
+                    <h3>Contact Form</h3>
+                    <form>
+                        <input type="text" name="" id="" placeholder="First Name">
+                        <input type="text" name="" id="" placeholder="Last Name">
+                        <input type="text" name="" id="" placeholder="Email">
+                        <input type="tel" name="" id="" placeholder="Phone Number">
+                        <input type="text" name="" id="" placeholder=" Message">                        
+                        <button type="button" id="submitbtn">Submit</button>
+                    </form>
+                </div>
+                <div class="contactdiv push-down">
+                    <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d505.5164037125686!2d19.68767076216851!3d46.91758275229163!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4743da039cc46819%3A0x76e03484e50b2f33!2zS2Vjc2tlbcOpdGkgU1pDIEthbmTDsyBLw6FsbcOhbiBUZWNobmlrdW0!5e0!3m2!1shu!2shu!4v1742457479536!5m2!1shu!2shu" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+
+            </div>
+        </section>
+        
     </div>
-  </section>
-
 </body>
 </html>
