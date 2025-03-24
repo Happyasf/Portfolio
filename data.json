@@ -2,7 +2,7 @@
 	{
 		"id": "1",
 		"title": "Ingatlaniroda",
-		"photo_url": "https://res.cloudinary.com/dgodcsh3p/image/upload/v1740729470/ingatlan_gillmf.png",
+		"photo_url": "",
 		"repo-link": 
 		"topics": [
 			"fetch API",
@@ -17,7 +17,7 @@
 	{
 		"id": "2",
 		"title": "Products",
-		"photo_url": "https://res.cloudinary.com/dgodcsh3p/image/upload/v1740729470/products_g6ans5.png",
+		"photo_url": "",
 		"repo-link":
 		"topics": [
 			"fetch API",
@@ -25,12 +25,12 @@
 			"Reszponzív design",
 			"Javascript függvények"
 		],
-		"site-link": "https://bencecsordas.github.io/Products/"
+		"site-link": ""
 	},
 	{
 		"id": "3",
 		"title": "Virágbolt",
-		"photo_url": "https://res.cloudinary.com/dgodcsh3p/image/upload/v1740729577/virag_y04edn.png",
+		"photo_url": "",
 		"repo-link":
 		"topics": [
 			"fetch API",
@@ -40,12 +40,12 @@
 			"checkboxok használata",
 			"select használata"
 		],
-		"site-link": "https://viragbolt.netlify.app/"
+		"site-link": ""
 	},
 	{
 		"id": "4",
 		"title": "Search",
-		"photo_url": "https://res.cloudinary.com/dgodcsh3p/image/upload/v1740729470/cat_epuvtm.png",
+		"photo_url": "",
 		"repo-link": 
 		"topics": [
 			"fetch API",
@@ -53,12 +53,12 @@
 			"Reszponzív design",
 			"Javascript függvények"
 		],
-		"site-link": "https://thecutestcatsever.netlify.app/"
+		"site-link": ""
 	},
 	{
 		"id": "5",
 		"title": "Users",
-		"photo_url": "https://res.cloudinary.com/dgodcsh3p/image/upload/v1740729470/users_uxehil.png",
+		"photo_url": "",
 		"repo-link": 
 		"topics": [
 			"fetch API",
@@ -66,12 +66,12 @@
 			"Reszponzív design",
 			"Javascript függvények"
 		],
-		"site-link": "https://bencecsordas.github.io/Users/"
+		"site-link": ""
 	},
 	{
 		"id": "6",
 		"title": "Autókölcsönzés",
-		"photo_url": "https://res.cloudinary.com/dgodcsh3p/image/upload/v1740729470/auto_tfrygg.png",
+		"photo_url": "",
 		"repo-link": 
 		"topics": [
 			"fetch API",
@@ -79,6 +79,6 @@
 			"Reszponzív design",
 			"Javascript függvények"
 		],
-		"site-link": "https://bencecsordas.github.io/autokolcsonzes/teszt.html"
+		"site-link": ""
 	}
 ]
