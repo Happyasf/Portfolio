@@ -2,7 +2,6 @@
 	{
 		"id": "1",
 		"title": "Ingatlaniroda",
-		"photo_url": "https://res.cloudinary.com/dgodcsh3p/image/upload/v1740729470/ingatlan_gillmf.png",
 		"repo-link": "https://github.com/Happyasf/ingatlaniroda",
 		"topics": [
 			"fetch API",
@@ -17,7 +16,6 @@
 	{
 		"id": "2",
 		"title": "Products",
-		"photo_url": "https://res.cloudinary.com/dgodcsh3p/image/upload/v1740729470/products_g6ans5.png",
 		"repo-link": "https://github.com/Happyasf/Products",
 		"topics": [
 			"fetch API",
@@ -30,7 +28,6 @@
 	{
 		"id": "3",
 		"title": "Virágbolt",
-		"photo_url": "https://res.cloudinary.com/dgodcsh3p/image/upload/v1740729577/virag_y04edn.png",
 		"repo-link": "https://github.com/Happyasf/Viragbolt",
 		"topics": [
 			"fetch API",
@@ -45,7 +42,6 @@
 	{
 		"id": "4",
 		"title": "Users",
-		"photo_url": "https://res.cloudinary.com/dgodcsh3p/image/upload/v1740729470/users_uxehil.png",
 		"repo-link": "https://github.com/Happyasf/Profilecards",
 		"topics": [
 			"fetch API",
@@ -58,7 +54,6 @@
 	{
 		"id": "5",
 		"title": "Autókölcsönzés",
-		"photo_url": "https://res.cloudinary.com/dgodcsh3p/image/upload/v1740729470/auto_tfrygg.png",
 		"repo-link": "https://github.com/Happyasf/autokolcsonzes",
 		"topics": [
 			"fetch API",
